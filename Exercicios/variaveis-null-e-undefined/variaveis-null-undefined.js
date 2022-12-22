@@ -5,4 +5,12 @@ var teste = null;
 var teste2 = 
 
 console.log(teste);
-console.log(teste2);
+
+teste = "Valor modificado com sucesso"
+
+console.log(teste);
+
+teste = 321.5;
+
+console.log(teste);
+
