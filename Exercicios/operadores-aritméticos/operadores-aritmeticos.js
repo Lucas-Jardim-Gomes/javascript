@@ -1,3 +1,5 @@
+
+/*
 var num1 = prompt("Digite valor de num1: ")
 var num2 = prompt("Digite valor de num2: ")
 
@@ -21,3 +23,18 @@ document.write(num1 + "<br>")
 document.write("O decremento de " + num1 + " é " + (num1--) + "<br>")
 
 document.write(num1 + "<br>")
+
+*/
+
+var teste = "Olá "
+
+//teste = teste + 5
+//teste += 5
+//teste -= 5
+//teste *= 5
+//teste /= 5
+//teste %= 5
+teste += "Jorge"
+
+
+document.write(teste)
