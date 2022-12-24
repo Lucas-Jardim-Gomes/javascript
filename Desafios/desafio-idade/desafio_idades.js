@@ -1,18 +1,37 @@
-var idade = prompt("Digite a sua idade");
+var idade = prompt("Digite a sua idade:");
 
 
-var criança = 15;
-var jovem = 30;
-var adulto = 60;
-var idoso = 60;
 
-if (idade <= criança ) {
-    document.write("criança")
-} else {
-    document.write("jovem")
+if(idade >= 0 && idade < 15){
+    alert('Criança');
+   } 
+if(idade >= 15 && idade < 30) {
+    alert("Jovem");
+} 
+if(idade >= 30 && idade < 60) {
+    alert("adulto");
+}
+if(idade >= 60) {
+    alert("idoso");
 }
 
+/*
+Exemplo utilizando ifs encadeados (o resultado será o mesmo):
+var idade = prompt('Digite a idade');
 
+if(idade >= 0 && idade < 15){
+ alert('Criança');
+
+} else if(idade >= 15 && idade < 30){
+ alert('Jovem');
+
+} else if(idade >= 30 && idade < 60){
+ alert('Adulto');
+
+} else {
+ alert('Idoso');
+}
+*/
 
 /*
 var nota = prompt("Digite a nota do aluno:");
