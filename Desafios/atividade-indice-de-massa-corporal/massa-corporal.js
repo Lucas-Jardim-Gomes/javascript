@@ -10,11 +10,13 @@ peso = parseFloat(peso)
 
 altura = altura / 100;
 
-var M = peso / (altura * altura);
-
-var classificacao = ""
+var imc = peso / (altura * altura);
 
 imc = imc.toFixed(2)
+var M = imc
+var classificacao = ""
+
+
 // Classificacões do imc
 
 if(M < 16){
@@ -41,6 +43,6 @@ if(M >= 35 && M <= 39,99){
 }
 
 // Saida de dados
-document.write(nome + " possui índice de massa corporal igual a " + M.toFixed(2) + ", sendo classificado como " + classificacao)
+document.write(nome + " possui índice de massa corporal igual a " + M + ", sendo classificado como " + classificacao)
 
 
