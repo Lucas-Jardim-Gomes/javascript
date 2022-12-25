@@ -8,39 +8,39 @@ var peso = prompt ("Digite o seu peso: ")
 altura = parseFloat(altura)
 peso = parseFloat(peso)
 
-altura /= 100
+altura = altura / 100;
 
-var imc = peso / (altura * altura)
+var M = peso / (altura * altura);
 
-var classificacao = null
+var classificacao = ""
 
-
+imc = imc.toFixed(2)
 // Classificacões do imc
-if(imc < 16){
-    classificacao = "Baixo peso muito grave"
-}
-if(imc >= 16 && imc <= 16,99){
+
+if(M < 16){
+    classificacao = "Baixo peso muito grave"}
+if(M >= 16 && M <= 16,99){
     classificacao = "Baixo peso grave"
 }
-if(imc >= 17 && imc <= 18,49){
+if(M >= 17 && M <= 18,49){
     classificacao = "Baixo peso"
 }
-if(imc >= 18,50 && imc <= 24,99){
+if(M >= 18,50 && M <= 24,99){
     classificacao = "Peso normal"
 }
-if(imc >= 25 && imc <= 29,99){
+if(M >= 25 && M <= 29,99){
     classificacao = "Sobrepeso"
 }
-if(imc >= 30 && imc <34,99){
+if(M >= 30 && M <34,99){
     classificacao = "Obesidade grau I"
 }
-if(imc >= 35 && imc <= 39,99){
+if(M >= 35 && M <= 39,99){
     classificacao = "Obesidade grau II"
-}if(imc >= 40){
+}if(M >= 40){
     classificacao = "Obesidade grau III"
 }
 
 // Saida de dados
-document.write(nome + "possui índice de massa corporal igual a " + imc + ", sendo classificado como " + classificacao)
+document.write(nome + " possui índice de massa corporal igual a " + M.toFixed(2) + ", sendo classificado como " + classificacao)
 
 
