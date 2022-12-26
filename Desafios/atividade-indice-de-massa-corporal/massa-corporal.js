@@ -27,7 +27,7 @@ if(M >= 16 && M <= 16,99){
 if(M >= 17 && M <= 18,49){
     classificacao = "Baixo peso"
 }
-if(M >= 18,50 && M <= 24,99){
+if(M >= 18,50 && M >= 24,99){
     classificacao = "Peso normal"
 }
 if(M >= 25 && M <= 29,99){
