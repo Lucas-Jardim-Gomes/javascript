@@ -8,9 +8,9 @@ function calcularAreaTerreno( largura, comprimento){
     return area 
 }
 
-var largura = prompt("Dif
-")
+var largura = prompt("Digite a largura do terreno em metros: ")
+var comprimento = prompt("Digite o comprimento do terreno em metros: ")
 
-var area = calcularAreaTerreno(15, 25)
+var area = calcularAreaTerreno(largura, comprimento)
 
 document.write("O terreno possui " + area + " metros quadrados" )
