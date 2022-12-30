@@ -21,4 +21,3 @@ function calculo (num1, operacao , num2){
 
 
 document.write("O resultado é: " + calculo (num1, operacao , num2))
-//document.write("O resultado é: " + resultado + ".")
