@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos mouse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="eventos-mouse.js"></script>
+    <div onclick="acao()"></div>
+    <div id="div2" ondblclick="acao2()"></div>
+    <div id="div3" onmouseup="acao3()"></div>
+    <div id="div4" onmouseover="acao4()"></div>
+    <div id="div5" onmouseout="acao5()"></div>
+    <!--
+        se quiser pode combinar esses eventos
+        ex:
+           <div onclick="acao()" onmouseout="acao2()"> </div>
+    -->
 </body>
 </html>

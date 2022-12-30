@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    
+}
+div {
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+}
+#div2 {
+    background-color: rgb(226, 110, 43);
+    height: 150px;
+    width: 150px;
+}
+#div3 {
+    background-color: rgb(64, 226, 43);
+    height: 150px;
+    width: 150px;
+}
+#div4 {
+    background-color: rgb(43, 46, 226);
+    height: 150px;
+    width: 150px;
+}
+#div5 {
+    background-color: rgb(226, 43, 43);
+    height: 150px;
+    width: 150px;
+}
