@@ -1,0 +1,13 @@
+.estilo1 {
+    background-color: red;
+    color: white;
+}
+
+.estilo2 {
+    background: blue;
+    color: black;
+    width: 200px;
+    text-align: center;
+    border: 2px solid red;
+}
+
