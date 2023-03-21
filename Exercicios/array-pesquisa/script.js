@@ -4,8 +4,10 @@ var lista_frutas = []
     lista_frutas[2] = 'Uva'
     lista_frutas[3] = 'Morango'
 
-if (lista_frutas.indexOf('Banana') === -1 ) {
+    var pesquisa = lista_frutas.indexOf('Banana')
+
+if (pesquisa === -1 ) {
     console.log("Elemento não existe")
 } else {
-    console.log("Elemento existe e está na posição " + lista_frutas.indexOf('Banana'))
+    console.log("Elemento existe e está na posição " + pesquisa)
 }
