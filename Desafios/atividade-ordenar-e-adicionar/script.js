@@ -4,12 +4,13 @@ function valorRecuperado(){
     caracter.trim()
 
 
-     if (caracter = ""){
+     if (caracter === ""){
         alert("Informe um valor valido")
-     } if (caracter = objetos[""]) {
+     } if  (objetos.indexOf(objeto) !== -1){
         alert("Objeto já foi adicionado")
-     } else if (caracter != objetos) {
-        objetos.push(caracter)
+     } else if (objetos) {
+            objetos.push("Mesa");
+          
      } 
 }
 
@@ -19,3 +20,5 @@ function valorRecuperado(){
         objetos[0] = 'Cadeira'
         objetos[1] = 'Impressora'
         objetos[2] = 'Garfo'
+
+console.log(objetos)
