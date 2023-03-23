@@ -6,12 +6,12 @@ function valorRecuperado(){
 
      if (caracter === ""){
         alert("Informe um valor valido")
-     } if  (objetos.indexOf(objeto) !== -1){
+     } if  (objetos.indexOf(caracter) !== -1){
         alert("Objeto já foi adicionado")
      } else if (objetos) {
-            objetos.push("Mesa");
-          
+        objetos.push(caracter);    
      } 
+     document.getElementById("entrada").value = "";
 }
 
 //lista_coisas['objetos'].push('Mesa')
@@ -21,4 +21,8 @@ function valorRecuperado(){
         objetos[1] = 'Impressora'
         objetos[2] = 'Garfo'
 
+function acaoOrdenar(){
+   objetos.sort()
+   console.log(objetos)
+}
 console.log(objetos)
