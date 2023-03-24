@@ -1,13 +1,13 @@
 var y = 1
 var x = 1
-while( x <= 10) {
+while (x <= 10) {
     y = 1;
-        while( y <= 10){
-            document.write(x + ' x ' +  y  + ' =  '  +  ( y * x) + '<br />')
-            
-    y++        
-        }
-    
+    while (y <= 10) {
+        document.write(x + ' x ' + y + ' =  ' + (y * x) + '<br />')
+
+        y++
+    }
+
 
     x++
     document.write('<hr/>')
